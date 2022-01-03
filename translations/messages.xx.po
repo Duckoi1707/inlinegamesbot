@@ -1,1 +1,288 @@
 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: @jacklul\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-09-16 16:00+0200\n"
+"PO-Revision-Date: 2017-07-13T17:47:54+00:00\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Command/Admin/CleansessionsCommand.php:149
+msgid "Tạo phiên mới"
+msgstr ""
+
+#: Command/Admin/CleansessionsCommand.php:156
+msgid "Phiên trò chơi này đã hết hạn."
+msgstr ""
+
+#: Command/Admin/CleansessionsCommand.php:213
+#: Command/System/InlinequeryCommand.php:124 Entity/Game.php:805
+msgid "Create"
+msgstr ""
+
+#: Command/System/CallbackqueryCommand.php:73
+msgid "Yêu cầu không hợp lệ"
+msgstr ""
+
+#: Command/System/InlinequeryCommand.php:49 Entity/Game.php:634
+#: Entity/Game.php:708
+msgid "Phiên trò chơi này trống."
+msgstr ""
+
+#: Command/User/StartCommand.php:60
+msgid "Chào!"
+msgstr ""
+
+#: Command/User/StartCommand.php:61 Command/User/StartCommand.php:72
+#: Entity/Game.php:558 Entity/Game.php:787 Entity/Game.php:865
+msgid "Chơi"
+msgstr ""
+
+#: Entity/Game.php:232
+msgid "Phiên trò chơi này đã bị lỗi."
+msgstr ""
+
+#: Entity/Game.php:464
+msgid "Trò chơi này đã được tạo!"
+msgstr ""
+
+#: Entity/Game.php:477 Entity/Game.php:545 Entity/Game.php:623
+#: Entity/Game.php:648 Entity/Game.php:685 Entity/Game.php:790
+#: Entity/Game/Russianroulette.php:166
+msgid "{PLAYER_HOST} đang đợi đối thủ tham gia..."
+msgstr ""
+
+#: Entity/Game.php:477 Entity/Game.php:545 Entity/Game.php:623
+#: Entity/Game.php:648 Entity/Game.php:685 Entity/Game.php:790
+#: Entity/Game.php:843 Entity/Game/Russianroulette.php:166
+#: Entity/Game/Russianroulette.php:318
+msgid "Tham gia"
+msgstr ""
+
+#: Entity/Game.php:477 Entity/Game.php:545 Entity/Game.php:623
+#: Entity/Game.php:648 Entity/Game.php:685 Entity/Game.php:790
+#: Entity/Game/Russianroulette.php:166
+msgid "nhấn {BUTTON} nút để tham gia."
+msgstr ""
+
+#: Entity/Game.php:558 Entity/Game.php:787
+msgid "{PLAYER_GUEST} đã tham gia..."
+msgstr ""
+
+#: Entity/Game.php:558 Entity/Game.php:787
+msgid "Đang chờ {PLAYER} để bắt đầu..."
+msgstr ""
+
+#: Entity/Game.php:558 Entity/Game.php:787
+msgid "nhấn {BUTTON} nút để bắt đầu."
+msgstr ""
+
+#: Entity/Game.php:564
+msgid "Bạn không thể chơi với chính mình!"
+msgstr ""
+
+#: Entity/Game.php:567
+msgid "Trò chơi này là đầy đủ!"
+msgstr ""
+
+#: Entity/Game.php:610 Entity/Game.php:712 Entity/Game.php:743
+#: Entity/Game/Checkers.php:111 Entity/Game/Checkers.php:372
+#: Entity/Game/Checkers.php:421 Entity/Game/Connectfour.php:87
+#: Entity/Game/Poolcheckers.php:80 Entity/Game/Poolcheckers.php:133
+#: Entity/Game/Rockpaperscissors.php:75 Entity/Game/Russianroulette.php:75
+#: Entity/Game/Tictactoe.php:84
+msgid "Bạn không tham gia trò chơi này!"
+msgstr ""
+
+#: Entity/Game.php:623 Entity/Game.php:648
+msgid "{PLAYER} từ bỏ..."
+msgstr ""
+
+#: Entity/Game.php:623
+msgid "{PLAYER_HOST} bây giờ là chủ nhà."
+msgstr ""
+
+#: Entity/Game.php:671 Entity/Game.php:716 Entity/Game.php:761
+msgid "Bạn không phải là chủ nhà!"
+msgstr ""
+
+#: Entity/Game.php:675
+msgid "Không có cầu thủ nào để đá!"
+msgstr ""
+
+#: Entity/Game.php:685
+msgid "{PLAYER_GUEST} bị đá..."
+msgstr ""
+
+#: Entity/Game.php:837 Entity/Game.php:885 Entity/Game.php:961
+#: Entity/Game/Checkers.php:278 Entity/Game/Poolcheckers.php:820
+#: Entity/Game/Rockpaperscissors.php:298
+#: Entity/Game/Rockpaperscissorslizardspock.php:243
+#: Entity/Game/Russianroulette.php:297 Entity/Game/Russianroulette.php:312
+msgid "Từ bỏ"
+msgstr ""
+
+#: Entity/Game.php:891 Entity/Game.php:967 Entity/Game/Checkers.php:284
+#: Entity/Game/Poolcheckers.php:826 Entity/Game/Rockpaperscissors.php:304
+#: Entity/Game/Rockpaperscissorslizardspock.php:249
+#: Entity/Game/Russianroulette.php:303
+msgid "Đá"
+msgstr ""
+
+#: Entity/Game.php:951 Entity/Game/Checkers.php:248
+#: Entity/Game/Poolcheckers.php:790 Entity/Game/Rockpaperscissors.php:277
+#: Entity/Game/Rockpaperscissorslizardspock.php:222
+msgid "Chơi lại!"
+msgstr ""
+
+#: Entity/Game.php:1037
+msgid "Phiên trò chơi không được tìm thấy hoặc đã hết hạn."
+msgstr ""
+
+#: Entity/Game/Checkers.php:117 Entity/Game/Checkers.php:378
+#: Entity/Game/Checkers.php:464 Entity/Game/Connectfour.php:121
+#: Entity/Game/Poolcheckers.php:86 Entity/Game/Poolcheckers.php:176
+#: Entity/Game/Rockpaperscissors.php:103 Entity/Game/Russianroulette.php:109
+#: Entity/Game/Tictactoe.php:119
+msgid "Trò chơi này đã kết thúc!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:129 Entity/Game/Checkers.php:154
+#: Entity/Game/Checkers.php:590 Entity/Game/Checkers.php:592
+#: Entity/Game/Connectfour.php:165 Entity/Game/Poolcheckers.php:304
+#: Entity/Game/Poolcheckers.php:306 Entity/Game/Russianroulette.php:137
+#: Entity/Game/Russianroulette.php:150 Entity/Game/Tictactoe.php:153
+msgid "{PLAYER} thắng!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:130 Entity/Game/Checkers.php:155
+msgid "{PLAYER} đầu hàng!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:146 Entity/Game/Checkers.php:171
+msgid "Nhấn nút một lần nữa để đầu hàng!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:258 Entity/Game/Poolcheckers.php:800
+msgid "Đầu hàng"
+msgstr ""
+
+#: Entity/Game/Checkers.php:267 Entity/Game/Poolcheckers.php:809
+msgid "Bỏ phiếu để vẽ"
+msgstr ""
+
+#: Entity/Game/Checkers.php:406 Entity/Game/Poolcheckers.php:118
+msgid "Bạn đã bình chọn!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:486 Entity/Game/Checkers.php:509
+#: Entity/Game/Checkers.php:557 Entity/Game/Poolcheckers.php:197
+#: Entity/Game/Poolcheckers.php:220 Entity/Game/Poolcheckers.php:271
+msgid "Bạn phải thực hiện một bước nhảy khi có thể!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:561 Entity/Game/Checkers.php:571
+#: Entity/Game/Connectfour.php:149 Entity/Game/Connectfour.php:154
+#: Entity/Game/Poolcheckers.php:275 Entity/Game/Poolcheckers.php:285
+#: Entity/Game/Rockpaperscissors.php:122 Entity/Game/Russianroulette.php:127
+#: Entity/Game/Tictactoe.php:127 Entity/Game/Tictactoe.php:143
+msgid "Nước đi không hợp lệ!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:569 Entity/Game/Poolcheckers.php:283
+msgid "Lựa chọn không hợp lệ!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:575 Entity/Game/Connectfour.php:125
+#: Entity/Game/Poolcheckers.php:289 Entity/Game/Russianroulette.php:113
+#: Entity/Game/Tictactoe.php:123
+msgid "Không đến lượt bạn!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:594 Entity/Game/Connectfour.php:167
+#: Entity/Game/Poolcheckers.php:308 Entity/Game/Tictactoe.php:155
+msgid "Trận đấu kết thúc với tỷ số hòa!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:605 Entity/Game/Checkers.php:607
+#: Entity/Game/Poolcheckers.php:319 Entity/Game/Poolcheckers.php:321
+msgid "{PLAYER} bình chọn để vẽ!"
+msgstr ""
+
+#: Entity/Game/Checkers.php:613 Entity/Game/Poolcheckers.php:327
+msgid "(Chọn phần bạn muốn di chuyển)"
+msgstr ""
+
+#: Entity/Game/Checkers.php:615 Entity/Game/Poolcheckers.php:329
+msgid "(Selected: {COORDINATES})"
+msgstr ""
+
+#: Entity/Game/Checkers.php:618 Entity/Game/Poolcheckers.php:332
+msgid "(Thực hiện di chuyển của bạn hoặc chọn phần khác nhau)"
+msgstr ""
+
+#: Entity/Game/Checkers.php:620 Entity/Game/Poolcheckers.php:334
+msgid "(Việc di chuyển của bạn phải tiếp tục)"
+msgstr ""
+
+#: Entity/Game/Rockpaperscissors.php:140 Entity/Game/Rockpaperscissors.php:144
+msgid "{PLAYER} đã thắng vòng này!"
+msgstr ""
+
+#: Entity/Game/Rockpaperscissors.php:146
+msgid "Vòng đấu này kết thúc với tỷ số hòa!"
+msgstr ""
+
+#: Entity/Game/Rockpaperscissors.php:155 Entity/Game/Rockpaperscissors.php:159
+msgid "{PLAYER} thắng trận đấu!"
+msgstr ""
+
+#: Entity/Game/Rockpaperscissors.php:163
+msgid "Lượt {ROUND} - thực hiện lựa chọn của bạn!"
+msgstr ""
+
+#: Entity/Game/Rockpaperscissors.php:166 Entity/Game/Rockpaperscissors.php:168
+msgid "Đang chờ:"
+msgstr ""
+
+#: Entity/Game/Russianroulette.php:136 Entity/Game/Russianroulette.php:149
+msgid "{PLAYER} chết! (kicked)"
+msgstr ""
+
+#: Entity/Game/Russianroulette.php:170
+msgid "{PLAYER} sống sót!"
+msgstr ""
+
+#: GameCore.php:127
+msgid "Lỗi cơ sở dữ liệu!"
+msgstr ""
+
+#: GameCore.php:127 GameCore.php:257 GameCore.php:281 GameCore.php:305
+#: GameCore.php:329
+msgid "thử lại sau vài giây."
+msgstr ""
+
+#: GameCore.php:257
+msgid "Quá trình cho trò chơi này đang bận rộn!"
+msgstr ""
+
+#: GameCore.php:281
+msgid "Lỗi API Telegram!"
+msgstr ""
+
+#: GameCore.php:305
+msgid "Lỗi bot!"
+msgstr ""
+
+#: GameCore.php:329
+msgid "Lỗi chưa được xử lý!"
+msgstr ""

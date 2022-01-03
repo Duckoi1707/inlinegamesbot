@@ -25,7 +25,7 @@ class Language
      *
      * @var string
      */
-    private static $default_language = 'en';
+    private static $default_language = 'VI';
 
     /**
      * Current language

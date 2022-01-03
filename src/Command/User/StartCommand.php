@@ -57,8 +57,8 @@ class StartCommand extends UserCommand
         }
 
         $text = Emoji::wavingHand() . ' ';
-        $text .= '<b>' . __('Hi!') . '</b>' . PHP_EOL;
-        $text .= __('To begin, start a message with {USAGE} in any of your chats or click the {BUTTON} button and then select a chat to play in.', ['{USAGE}' => '<b>\'@' . $this->getTelegram()->getBotUsername() . ' ...\'</b>', '{BUTTON}' => '<b>\'' . __('Play') . '\'</b>']);
+        $text .= '<b>' . __('Chào!') . '</b>' . PHP_EOL;
+        $text .= __('Để bắt đầu, hãy bắt đầu một tin nhắn bằng {USAGE} trong bất kỳ cuộc trò chuyện nào của bạn hoặc nhấp vào {BUTTON} và sau đó chọn một cuộc trò chuyện để chơi.', ['{USAGE}' => '<b>\'@' . $this->getTelegram()->getBotUsername() . ' ...\'</b>', '{BUTTON}' => '<b>\'' . __('Play') . '\'</b>']);
 
         $data = [
             'chat_id'                  => $chat_id,
@@ -69,7 +69,7 @@ class StartCommand extends UserCommand
                 [
                     new InlineKeyboardButton(
                         [
-                            'text'                => __('Play') . ' ' . Emoji::gameDie(),
+                            'text'                => __('Chơi') . ' ' . Emoji::gameDie(),
                             'switch_inline_query' => Emoji::gameDie(),
                         ]
                     ),

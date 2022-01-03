@@ -46,10 +46,6 @@ msgstr ""
 msgid "Chơi"
 msgstr ""
 
-#: Command/User/StartCommand.php:61
-msgid "Để bắt đầu, hãy bắt đầu một tin nhắn bằng {USAGE} trong bất kỳ cuộc trò chuyện nào của bạn hoặc nhấp vào {BUTTON} và sau đó chọn một cuộc trò chuyện để chơi."
-msgstr ""
-
 #: Entity/Game.php:232
 msgid "Phiên trò chơi này đã bị lỗi."
 msgstr ""
